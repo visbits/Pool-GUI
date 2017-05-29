@@ -1,0 +1,29 @@
+/* Global mobile options */
+.mobile-view {
+	text-align:  center;
+}
+.mobile-view label {
+	padding: 10px;
+}
+/* Sets the fields to 100% and styles the inputs */
+.mobile-view .mobile-display, .mobile-view .mobile-display:disabled {
+	font-size: 18px;
+	font-weight: bold;
+	text-align:  center;
+	color: black;
+	padding: 10px;
+	width: 100%;
+	border: 0px;
+}
+/* Style each field */
+.mobile-view .chemical-balance{
+	background-color: #b6d7a8;
+}
+.mobile-view .current-temperature:disabled{
+	background-color: #cc0000;
+	color: white;
+}
+.mobile-view .pump-control {
+	background-color: #085394;
+	color: white;
+}
